@@ -26,7 +26,7 @@ const Layout = () => {
             <div className='bg-gray-200 col-span-4 row-span-3 p-4'>
                 <Head/> <br/>
                 <SortBy/> <br/>
-                <Card/> <br/>
+                <Card/>
 
             </div>
         </div>
