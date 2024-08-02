@@ -5,7 +5,7 @@ import img3 from './plush.png'
 import img4 from './supreme.png'
 import { FaStar } from "react-icons/fa";
 
-
+// add all functions without made change in Card.jsx file
 const Card = () => {
   
 const products = [
