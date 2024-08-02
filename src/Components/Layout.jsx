@@ -27,7 +27,6 @@ const Layout = () => {
                 <Head/> <br/>
                 <SortBy/> <br/>
                 <Card/> <br/>
-                <Card/> <br/>
 
             </div>
         </div>

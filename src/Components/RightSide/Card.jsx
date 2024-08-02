@@ -10,14 +10,16 @@ const Card = () => {
   
 const products = [
   { id: 1, img: img1, title: "Phalada Pure & Sure | Organic Coconut Milk-160ml", rating: 5, price: 1179, originalPrice: 1749, details: "EXTRA VIRGIN OLIVE OILS" },
-  { id: 2, img: img2, title: "Phalada Pure & Sure | Organic Coconut Milk-160ml", rating: 5, price: 1179, originalPrice: 1749, details: "EXTRA VIRGIN OLIVE OILS" },
-  { id: 3, img: img3, title: "Phalada Pure & Sure | Organic Coconut Milk-160ml", rating: 5, price: 1179, originalPrice: 1749, details: "EXTRA VIRGIN OLIVE OILS" },
-  { id: 4, img: img4, title: "Phalada Pure & Sure | Organic Coconut Milk-160ml", rating: 5, price: 1179, originalPrice: 1749, details: "EXTRA VIRGIN OLIVE OILS" },
-  { id: 1, img: img1, title: "Phalada Pure & Sure | Organic Coconut Milk-160ml", rating: 5, price: 1179, originalPrice: 1749, details: "EXTRA VIRGIN OLIVE OILS" },
-  { id: 2, img: img2, title: "Phalada Pure & Sure | Organic Coconut Milk-160ml", rating: 5, price: 1179, originalPrice: 1749, details: "EXTRA VIRGIN OLIVE OILS" },
-  { id: 3, img: img3, title: "Phalada Pure & Sure | Organic Coconut Milk-160ml", rating: 5, price: 1179, originalPrice: 1749, details: "EXTRA VIRGIN OLIVE OILS" },
-  { id: 4, img: img4, title: "Phalada Pure & Sure | Organic Coconut Milk-160ml", rating: 5, price: 1179, originalPrice: 1749, details: "EXTRA VIRGIN OLIVE OILS" },
+  { id: 2, img: img1, title: "Phalada Pure & Sure | Organic Coconut Milk-160ml", rating: 5, price: 1179, originalPrice: 1749, details: "EXTRA VIRGIN OLIVE OILS" },
+  { id: 3, img: img1, title: "Phalada Pure & Sure | Organic Coconut Milk-160ml", rating: 5, price: 1179, originalPrice: 1749, details: "EXTRA VIRGIN OLIVE OILS" },
+  { id: 4, img: img1, title: "Phalada Pure & Sure | Organic Coconut Milk-160ml", rating: 5, price: 1179, originalPrice: 1749, details: "EXTRA VIRGIN OLIVE OILS" },
+  { id: 5, img: img1, title: "Phalada Pure & Sure | Organic Coconut Milk-160ml", rating: 5, price: 1179, originalPrice: 1749, details: "EXTRA VIRGIN OLIVE OILS" },
+  { id: 6, img: img1, title: "Phalada Pure & Sure | Organic Coconut Milk-160ml", rating: 5, price: 1179, originalPrice: 1749, details: "EXTRA VIRGIN OLIVE OILS" },
+  { id: 7, img: img1, title: "Phalada Pure & Sure | Organic Coconut Milk-160ml", rating: 5, price: 1179, originalPrice: 1749, details: "EXTRA VIRGIN OLIVE OILS" },
+  { id: 8, img: img1, title: "Phalada Pure & Sure | Organic Coconut Milk-160ml", rating: 5, price: 1179, originalPrice: 1749, details: "EXTRA VIRGIN OLIVE OILS" },
+
 ];
+
   return (
     <>
 
