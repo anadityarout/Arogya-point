@@ -11,6 +11,8 @@ import img1 from '../assets/coffeePowder.png'
 import img2 from '../assets/decoctionBold.png'
 import img3 from '../assets/plush.png'
 import img4 from '../assets/supreme.png'
+import Head from './Head';
+import SortBy from './SortBy';
 
 const MainLayout = () => {
   const [filters, setFilters] = useState({
@@ -155,8 +157,17 @@ const MainLayout = () => {
         </div>
 
         <div className='bg-white col-span-4 row-span-3'>
-            
-        <Dropdown setSortOrder={setSortOrder} />
+          <Head/>
+          <div className='flex'>
+            <div>
+            <SortBy/>
+
+            </div>
+            <div>
+            <Dropdown setSortOrder={setSortOrder} />
+
+            </div>
+          </div>
         {filteredProducts.map((product, index) => (
             <Card key={index} product={product} />
           ))}
