@@ -144,7 +144,7 @@ const MainLayout = () => {
   return (
     <>
 
-    <div className='grid grid-cols-5 gap-4 bg-white p-4'>
+    <div className='grid grid-cols-5 gap-4 bg-slate-400 p-4'>
 
         <div className='bg-white row-span-3'>
 
